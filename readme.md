@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/monki_screen2.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/monki_screen2." width="375px" alt="omschrijving van de pagina">
