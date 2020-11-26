@@ -1,5 +1,168 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* All main texts */
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: absolute;
+}
+
+/* Section New arrivals */
+div.greenHoodie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+div.greenHoodie h2 {
+  font-size: 30px;
+}
+
+div.greenHoodie p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 15em;
+  background-color: white;
+  color: black;
+  padding: 1em 2em 1em 2em;
+}
+
+/* Section Must-have looks this winter */
+div.whiteCoat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+div.whiteCoat h2 {
+  font-size: 27px;
+}
+
+div.whiteCoat p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 15em;
+  background-color: white;
+  color: black;
+  padding: 1em 2em 1em 2em;
+}
+
+/* List items */
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 0;
+  overflow-x: auto;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Grey line */
+p.line {
+  color: darkgrey;
+  background-color: darkgrey;
+  font-size: 1px;
+}
+
+/* Section Occasion-wear */
+div.blacksatin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 1em 2em 1em 2em;
+}
+
+div.blacksatin h2 {
+  font-size: 35px;
+  color: white;
+  background-color: inherit;
+}
+
+div.blacksatin p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 15em;
+  background-color: white;
+  color: black;
+  padding: 1em 2em 1em 2em;
+}
+
+/* Section Next lvl comfy */
+div.bluelounge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+div.bluelounge h2 {
+  font-size: 35px;
+}
+
+div.bluelounge p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 15em;
+  background-color: white;
+  color: black;
+  padding: 1em 2em 1em 2em;
+}
+
+/* Section Knitwear */
+div.whitesweater {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+div.whitesweater h2 {
+  font-size: 35px;
+}
+
+div.whitesweater p {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 15em;
+  background-color: white;
+  color: black;
+  padding: 1em 2em 1em 2em;
+}
+
+/* Footer text */
+footer {
+  background-color: pink;
+  color: grey;
+}
+
+footer p {
+  font-size: 10px;
+  font-family: sans-serif;
+  padding: 2em;
+}
