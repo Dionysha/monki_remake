@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.monki.com/en_eur/index.html
-2. https://fonts.google.com/?sidebar.open=true&selection.family=Montserrat
+2. https://fonts.google.com/
 3. 
 
 
