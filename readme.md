@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.monki.com/en_eur/index.html
 2. https://fonts.google.com/
-3. 
+3. https://www.clipartmax.com/middle/m2i8i8H7m2H7H7H7_shop-shopping-bag/
 
 
 
