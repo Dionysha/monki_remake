@@ -40,10 +40,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+- Tot nu toe was alles redelijk makkelijk
+- Ik weet alleen niet wat ik met de footer moet doen (vraag tijdens voortgangsgesprek)
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+
+<img src="images/screenshot2.0.png" width="375px" alt="screenshot monki second page">
+<img src="images/screenshot2.1.png" width="375px" alt="screenshot monki second page">
+
+Ik ben bijna klaar met de html en css van de homepage
+
 
 ### Agenda voor meeting
 
