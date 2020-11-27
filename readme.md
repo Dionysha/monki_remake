@@ -70,7 +70,7 @@ Ik ben bijna klaar met de html en css van de homepage
 - Css filters om achtergrond bij te werken
 - svg bestandjes gebruiken voor bijvoorbeeld icoontjes 
 - em gebruiken in plaats van px
-- Ervoor zorgen dat de website responsive wordt
+- Ervoor zorgen dat de content op de website meeschaalt
 
 
 
