@@ -40,6 +40,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
@@ -58,8 +59,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
-- Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn. 
-- Css filters om achtergrond bij te werken.
+- Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn 
+- Css filters om achtergrond bij te werken
 - svg bestandjes gebruiken voor bijvoorbeeld icoontjes 
 - em gebruiken in plaats van px
 
