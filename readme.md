@@ -57,7 +57,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
-Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn.
+
+- Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn. 
+- Css filters om achtergrond bij te werken.
+- svg bestandjes gebruiken voor bijvoorbeeld icoontjes 
+- em gebruiken in plaats van px
+
 
 
 ## Breakdownschets (week 1)
