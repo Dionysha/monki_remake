@@ -48,7 +48,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
 <img src="images/screenshot2.0.png" width="375px" alt="screenshot monki second page">
-<img src="images/screenshot2.1.png" width="375px" alt="screenshot monki second page">
 
 Ik ben bijna klaar met de html en css van de homepage
 
@@ -71,12 +70,14 @@ Ik ben bijna klaar met de html en css van de homepage
 - Css filters om achtergrond bij te werken
 - svg bestandjes gebruiken voor bijvoorbeeld icoontjes 
 - em gebruiken in plaats van px
+- Ervoor zorgen dat de website responsive wordt
 
 
 
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
+
 <img src="images/fed_breakdownschets.png" width="375px" alt="breakdownschets monki homepage">
 
 
