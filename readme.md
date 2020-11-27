@@ -48,16 +48,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| Dionysha       | Ashley             | Daan         | student 4        |
-| ---            | ---                | ---          | ---              |
-| Footer         | geen vragen        | en ik dit    | en dan ik dat    |
-|                | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Dionysha       | Ashley             | Daan               | Allyssa.         |
+| ---            | ---                | ---                | ---              |
+| Footer         | Achtergrond img    | positiion absolute | Tekst in Header  |
+|                |                    | kopie van site     | Pop up uitwerken |
+| ...            | ...                | ...                | ...              |
 
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
-
+Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn.
 
 
 ## Breakdownschets (week 1)
