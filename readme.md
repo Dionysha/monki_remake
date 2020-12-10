@@ -35,15 +35,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-- 
-- 
+Het gaat over het algemeen wel goed, heb soms alleen nog de neiging om onnodig dingen in mijn css te herhalen.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="" width="375px" alt="">
+<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 5">
 
+Alles op de homepage is ongeveer klaar, behalve de footer.
 
 ### Agenda voor meeting
 
@@ -59,6 +59,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
+- 
+- 
+-
 
 ## Voortgang 1 (week 3)
 
@@ -73,7 +76,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="images/screenshot2.0.png" width="375px" alt="screenshot monki second page">
+<img src="images/screenshot2.0.png" width="375px" alt="screenshot monki remake week 3">
 
 Ik ben bijna klaar met de html en css van de homepage
 
