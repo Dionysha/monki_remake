@@ -52,8 +52,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Dionysha       | Ashley             | Daan               | Allyssa.         |
 | ---            | ---                | ---                | ---              |
-| Footer         | Achtergrond img    | position absolute | Tekst in Header  |
-|                |                    | kopie van site     | Pop up uitwerken |
+| Footer         |                    |                    |                  |
+| foto's         |                    |                    |                  |
 | ...            | ...                | ...                | ...              |
 
 ### Verslag van meeting
