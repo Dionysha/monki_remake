@@ -8,9 +8,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.monki.com/en_eur/index.html
 2. https://fonts.google.com/
-3. 
-4. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
-5. https://www.pexels.com/search/outfit%20women/
+3. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
+4. https://www.pexels.com/search/outfit%20women/
 
 
 
@@ -53,7 +52,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | Dionysha       | Ashley             | Daan               | Allyssa.         |
 | ---            | ---                | ---                | ---              |
 | Footer         |                    |                    |                  |
-| foto's         |                    |                    |                  |
+| img verplaatsen|                    |                    |                  |
 | ...            | ...                | ...                | ...              |
 
 ### Verslag van meeting
@@ -85,7 +84,7 @@ Ik ben bijna klaar met de html en css van de homepage
 
 | Dionysha       | Ashley             | Daan               | Allyssa.         |
 | ---            | ---                | ---                | ---              |
-| Footer         | Achtergrond img    | position absolute | Tekst in Header  |
+| Footer         | Achtergrond img    | position absolute  | Tekst in Header  |
 |                |                    | kopie van site     | Pop up uitwerken |
 | ...            | ...                | ...                | ...              |
 
