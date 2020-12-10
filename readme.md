@@ -51,8 +51,8 @@ Alles op de homepage is ongeveer klaar, behalve de footer.
 
 | Dionysha       | Ashley             | Daan               | Allyssa.         |
 | ---            | ---                | ---                | ---              |
-| Footer         |                    |                    |                  |
-| img verplaatsen|                    |                    |                  |
+| Footer         |                    | Hamburger          |                  |
+| img verplaatsen|                    | Search bar         |                  |
 | ...            | ...                | ...                | ...              |
 
 ### Verslag van meeting
