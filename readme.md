@@ -9,6 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://www.monki.com/en_eur/index.html
 2. https://fonts.google.com/
 3. https://www.clipartmax.com/middle/m2i8i8H7m2H7H7H7_shop-shopping-bag/
+4. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
 
 
 
@@ -30,8 +31,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+-dit ging goed & dit was lastig-
+
+- 
+- 
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+<img src="" width="375px" alt="">
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Dionysha       | Ashley             | Daan               | Allyssa.         |
+| ---            | ---                | ---                | ---              |
+| Footer         | Achtergrond img    | position absolute | Tekst in Header  |
+|                |                    | kopie van site     | Pop up uitwerken |
+| ...            | ...                | ...                | ...              |
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
 
 
 ## Voortgang 1 (week 3)
@@ -58,7 +84,7 @@ Ik ben bijna klaar met de html en css van de homepage
 
 | Dionysha       | Ashley             | Daan               | Allyssa.         |
 | ---            | ---                | ---                | ---              |
-| Footer         | Achtergrond img    | positiion absolute | Tekst in Header  |
+| Footer         | Achtergrond img    | position absolute | Tekst in Header  |
 |                |                    | kopie van site     | Pop up uitwerken |
 | ...            | ...                | ...                | ...              |
 
