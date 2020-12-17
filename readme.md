@@ -69,7 +69,7 @@ Het gaat over het algemeen wel goed, heb soms alleen nog de neiging om onnodig d
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 5">
+<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 6">
 
 Alles op de homepage is ongeveer klaar, behalve de footer.
 
