@@ -44,7 +44,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | Dionysha       | Ashley             | Daan               | Allyssa          |
 | ---            | ---                | ---                | ---              |
 | a verplaatsen  |                    |                    |                  |
-|                |                    |                    |                  |
+| footer         |                    |                    |                  |
 | ...            | ...                | ...                | ...              |
 
 ### Verslag van meeting
