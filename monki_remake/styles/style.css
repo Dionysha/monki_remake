@@ -4,10 +4,10 @@
 }
 
 /* header */
-header p {
+header p:nth-of-type(1) {
   font-size: 0.8em;
   margin-bottom: 2em;
-  padding: 1em 8em;
+  padding: 1em 5em;
   line-height: 1.8em;
 }
 
@@ -20,37 +20,37 @@ header a {
   background-size: 100%;
 }
 
-/*  Hamburger meny icon */
-header a:nth-of-type(1) {
-  top: 6.1em;
+/*  Hamburger menu icon */
+header li:nth-of-type(1) a {
+  top: 5.7em;
   left: 0.5em;
   right: 20em;
-  height: 4em;
-  width: 3.5em;
+  height: 3.9em;
+  width: 3.4em;
   background-image: url(../images/hamburger.png);
 }
 
 /*  Search icon */
-header a:nth-of-type(2) {
-  top: 6.3em;
-  right: 16.8em;
-  height: 3.9em;
-  width: 3.4em;
+header li:nth-of-type(2) a {
+  top: 5.9em;
+  right: 13.8em;
+  height: 3.8em;
+  width: 3.3em;
   background-image: url(../images/search.png);
 }
 
 /*  Shopping bag icon */
-header a:nth-of-type(3) {
-  top: 5.8em;
-  right: 0.5em;
-  height: 3.9em;
-  width: 3.4em;
+header li:nth-of-type(3) a {
+  top: 5.5em;
+  right: 1em;
+  height: 3.7em;
+  width: 3.2em;
   background-image: url(../images/shoppingbag.png);
 }
 
 /* All main texts */
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-top: 0.1em;
@@ -89,11 +89,6 @@ main a {
   text-decoration: none;
 }
 
-/* Section New arrivals */
-section:nth-of-type(1) {
-  margin-top: 2em;
-}
-
 /* Section Must-have winter looks*/
 section:nth-of-type(2) h2 {
   padding-left: 1.5em;
@@ -120,6 +115,10 @@ section:nth-of-type(3) ul {
   margin-top: 1.5em;
 }
 
+section:nth-of-type(3) a {
+
+}
+
 section:nth-of-type(3) img {
   margin: 0.5em;
 }
@@ -127,17 +126,16 @@ section:nth-of-type(3) img {
 section:nth-of-type(3) li {
   font-size: 0.8em;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 /* Grey line */
-p.line {
-  color: transparent;
-  background-color: lightgrey;
-  font-size: 1.7px;
+section:nth-of-type(3) li {
+  border-bottom: 1px solid lightgrey;
 }
 
 /* Section Occasion-wear */
-section.blacksatin {
+section:nth-of-type(4) {
   margin-top: 2em;
 }
 
@@ -159,21 +157,31 @@ section:nth-of-type(6) h2 {
 /* Section #monkistyle */
 section:nth-of-type(7) h2 {
   text-align: center;
-  margin-bottom: 5.5em;
+  margin-bottom: 6.3em;
 }
 
 section:nth-of-type(7) p {
   font-size: 1.1em;
   line-height: 1.5em;
-  padding: 2em;
+  padding: 1em;
   color: black;
   background-color: transparent;
 }
 
 section:nth-of-type(7) a {
-  display: flex;
-  flex-flow: wrap;
+
 }
+
+/**/
+section:nth-of-type(7) ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 1.5em;
+}
+
 
 /* Footer items */
 footer {
@@ -182,12 +190,36 @@ footer {
   margin-top: 10em;
 }
 
+footer p:nth-of-type(1) {
+font-size: 1.5em;
+font-weight: bolder;
+margin: 1em;
+padding-top: 3em;
+line-height: 1.7em;
+}
+
+footer p:nth-of-type(2) {
+font-size: 0.9em;
+margin: 1em;
+padding-bottom: 1em;
+line-height: 1.7em;
+}
+
+button {
+padding: 1.2em 4em 1.2em 4em;
+display: flex;
+justify-content: center;
+margin: auto;
+border-radius: 0;
+border: 2px solid black;
+font-size: 0.8em;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
 h3 {
   font-size: 1.3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+
 }
 
 footer ul {
@@ -200,9 +232,10 @@ footer ul {
 }
 
 /* Footer text */
-footer p {
+footer p:nth-of-type(3) {
   font-size: 0.8em;
   background-color: pink;
   color: grey;
   padding: 1.5em;
+  margin: 0;
 }
