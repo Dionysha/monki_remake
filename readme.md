@@ -25,7 +25,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+
+
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+<img src="images/" width="375px" alt="screenshot monki remake week 5">
+
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Dionysha       | Ashley             | Daan               | Allyssa          |
+| ---            | ---                | ---                | ---              |
+| a verplaatsen  |                    |                    |                  |
+|                |                    |                    |                  |
+| ...            | ...                | ...                | ...              |
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+- 
+- 
+-
 
 
 
@@ -49,7 +77,7 @@ Alles op de homepage is ongeveer klaar, behalve de footer.
 
 -samen met je groepje opstellen-
 
-| Dionysha       | Ashley             | Daan               | Allyssa.         |
+| Dionysha       | Ashley             | Daan               | Allyssa          |
 | ---            | ---                | ---                | ---              |
 | Footer         |                    | Hamburger          |                  |
 | img verplaatsen|                    | Search bar         |                  |
@@ -85,7 +113,7 @@ Ik ben bijna klaar met de html en css van de homepage
 
 -samen met je groepje opstellen-
 
-| Dionysha       | Ashley             | Daan               | Allyssa.         |
+| Dionysha       | Ashley             | Daan               | Allyssa          |
 | ---            | ---                | ---                | ---              |
 | Footer         | Achtergrond img    | position absolute  | Tekst in Header  |
 |                |                    | kopie van site     | Pop up uitwerken |
