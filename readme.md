@@ -11,6 +11,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
 4. https://www.pexels.com/search/outfit%20women/
 5. https://www.cleanpng.com/png-peace-symbols-v-sign-4881948/
+6. https://codepen.io/shooft/pen/wvGyvRQ
 
 
 
