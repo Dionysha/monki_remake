@@ -26,6 +26,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
+
 <img src="images/screenshot_week8.1.png" width="375px" alt="screenshot 1 monki remake week 8">
 <img src="images/screenshot_week8.2.png" width="375px" alt="screenshot 2 monki remake week 8">
 
