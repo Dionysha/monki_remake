@@ -19,24 +19,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+- Een javascript micro interactie maken was wel moeilijk.
+- Ik was iets te laat begonnen met het afmaken van mijn pagina's.
+- De tweede pagina ging wel een stuk sneller dan de eerste.
+
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
+<img src="images/screenshot_week8.1.png" width="375px" alt="screenshot 1 monki remake week 8">
+<img src="images/screenshot_week8.2.png" width="375px" alt="screenshot 2 monki remake week 8">
 
 
 ## Voortgang 3 (week 6)
 
 -dit ging goed & dit was lastig-
 
-
+-De section #monkistyle ziet er nog niet echt mooi uit en de foto's zitten vast aan de rechterkant.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="images/" width="375px" alt="screenshot monki remake week 5">
-
+<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 6">
+Er is niet heel veel veranderd op de homepage, ik ben net begonnen aan de tweede pagina.
 
 
 ### Agenda voor meeting
@@ -53,10 +58,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
-- 
-- 
--
-
+- Een div plaatsen om h2 en a
+- Header flexboxen
+- Monki absolute positioneren
 
 
 ## Voortgang 2 (week 5)
@@ -71,7 +75,7 @@ Het gaat over het algemeen wel goed, heb soms alleen nog de neiging om onnodig d
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 6">
+<img src="images/screenshot_week5.png" width="375px" alt="screenshot monki remake week 5">
 
 Alles op de homepage is ongeveer klaar, behalve de footer.
 
@@ -91,7 +95,7 @@ Alles op de homepage is ongeveer klaar, behalve de footer.
 
 - 
 - 
--
+- 
 
 ## Voortgang 1 (week 3)
 
