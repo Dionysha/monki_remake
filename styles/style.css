@@ -28,6 +28,12 @@ section.navbar ul {
   flex-direction: row;
 }
 
+section.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*  Hamburger menu icon */
 header li:nth-of-type(1) a {
   margin-right: -1em;
@@ -57,10 +63,11 @@ header li:nth-of-type(3) a {
 
 /* All main texts */
 h1 {
+  display: flex;
+  justify-content: center;
   position: absolute;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   margin-top: 0.1em;
 }
 
@@ -78,7 +85,7 @@ p {
   color: black;
 }
 
-section {
+main section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +93,7 @@ section {
   font-family: 'Montserrat', sans-serif;
 }
 
-div {
+main div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +102,7 @@ div {
   margin-right: 1em;
 }
 
-div a {
+main div a {
   margin-top: 17em;
   padding: 1em 3em 1em 3em;
 }
@@ -111,6 +118,23 @@ main a {
 main div a:hover {
   background-color: pink;
   color: white;
+}
+
+/*  */
+section.mainItems img {
+  width: 50%;
+  min-width: 280px;
+  height: auto;
+}
+
+@media (min-width:800px) {
+  section.mainItems h2 {
+    font-size: 3em;
+  }
+
+  section.mainItems a {
+    font-size: 1.5em;
+  }
 }
 
 /* Section New arrivals*/
@@ -182,23 +206,24 @@ section:nth-of-type(4) h2 {
 
 /* Section Next lvl comfy */
 section:nth-of-type(5) h2 {
-  margin-top: 2em;
+  color: white;
+  background-color: transparent;
+  text-shadow: 0 0 0.3em black;
 }
 
 /* Section Knitwear */
 section:nth-of-type(6) {
-  margin-bottom: 7em;
+  margin-bottom: 6em;
 }
 
 section:nth-of-type(6) h2 {
   text-shadow: 0 0 0.3em white;
-  margin-top: 3em;
 }
 
 /* Section #monkistyle */
 section:nth-of-type(7) h2 {
   text-align: center;
-  margin-bottom: 6.3em;
+  margin-bottom: 5em;
 }
 
 section:nth-of-type(7) p {
@@ -287,12 +312,34 @@ h3 {
   margin-bottom: 0.5em;
 }
 
-footer ul {
+footer section:nth-of-type(1) ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* media queries footr navigation */
+@media (min-width: 300px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 500px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 footer a {
@@ -305,8 +352,19 @@ footer a {
 }
 
 /* Social media */
-section.socialMedia {
+footer section:nth-of-type(2) {
   margin-top: 2em;
+}
+
+footer section:nth-of-type(2) ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer section:nth-of-type(2) li {
+  margin-right: 1em;
 }
 
 /* Footer text monki info */
@@ -319,22 +377,35 @@ footer p:nth-of-type(3) {
 }
 
 /* Second Page */
-/* View all text */
+/* link back to homepage */
+a.home {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.8em;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  margin-top: -2em;
+  background-color: white;
+  color: pink;
+}
+
+/* 'View all' text */
 section.view h2 {
   font-size: 1em;
   background-color: pink;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 1em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
   width: 100%;
-  margin: auto;
+  margin-top: 4.5em;
 }
 
 /* Buttons filter and sort */
 section.view button {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   text-indent: -666em;
   color: white;
   background-color: transparent;
@@ -342,37 +413,37 @@ section.view button {
   background-size: 100%;
   z-index: 1;
   padding: 0;
+  position: absolute;
+  margin-top: 4.3em;
 }
 
 section.view button:nth-of-type(1) {
-  margin-right: 4em;
-  margin-top: 0.01em;
-  height: 3em;
-  width: 3.6em;
+  margin-right: 13em;
+  height: 3.3em;
+  width: 4.1em;
   background-image: url(../images/filter.png);
 }
 
 section.view button:nth-of-type(2) {
-  margin-left: 8em;
-  margin-top: -0.15em;
+  margin-left: 13em;
   height: 3em;
   width: 3.3em;
   background-image: url(../images/sort.png);
 }
 
-/* link back to homepage */
-a.home {
+section.sort {
+  margin-top: 7em;
+  font-size: 0.8em;
   display: flex;
-  justify-content: flex-start;
-  font-size: 0.7em;
-  font-weight: bolder;
-  margin-left: 0.5em;
-  margin-top: -8em;
+  justify-content: center;
 }
 
-a.home {
-  background-color: white;
-  color: pink;
+section.sort label {
+  margin-right: 1em;
+}
+
+section.sort input {
+  margin-right: 0.4em;
 }
 
 /* List items categories */
@@ -382,8 +453,7 @@ section.categories ul {
   flex-direction: row;
   padding: 0;
   overflow-x: auto;
-  margin-top: 5em;
-  margin-left: 0.5em;
+  margin-top: 2.5em;
   border-bottom: 2px solid lightgrey;
 }
 
@@ -395,7 +465,10 @@ section.categories button {
 }
 
 section.categories img {
-  margin: 0em 0.4em 1em 0.4em;
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+  margin-bottom: 0.5em;
 }
 
 section.categories li {
@@ -414,20 +487,51 @@ section.categories li:hover {
 /* List shop items */
 section.shopitems ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0;
+  margin: 1em;
+}
+
+/* media queries shop items */
+@media (min-width: 300px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 400px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 700px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 900px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
 }
 
 section.shopitems img {
   margin: 0.5em;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
 }
 
 section.shopitems li {
-  margin-bottom: 3em;
-  text-align: center;
+  margin-bottom: 2em;
 }
 
 section.shopitems img:hover {
@@ -440,9 +544,4 @@ section.shopitems p {
   color: black;
   background-color: white;
   font-weight: bolder;
-}
-
-section.shopitems img.shopItem {
-  background-image: linear-gradient(pink, purple, lightblue, lightgreen);
-  padding: 4px;
 }
