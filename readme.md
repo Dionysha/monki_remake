@@ -12,6 +12,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://www.pexels.com/search/outfit%20women/
 5. https://www.cleanpng.com/
 6. https://codepen.io/shooft/pen/wvGyvRQ
+7. https://codepen.io/joostf/pen/MOxQex
+8. https://www.w3schools.com/tags/att_input_type_checkbox.asp
 
 
 
@@ -94,9 +96,9 @@ Alles op de homepage is ongeveer klaar, behalve de footer.
 
 -na afloop snel uitkomsten vastleggen-
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Voortgang 1 (week 3)
 
@@ -130,9 +132,9 @@ Ik ben bijna klaar met de html en css van de homepage
 
 -na afloop snel uitkomsten vastleggen-
 
-- Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn 
+- Footer hoeft nog niet uitgewerkt, mag eerst een uitgeklapte versie zijn
 - Css filters om achtergrond bij te werken
-- svg bestandjes gebruiken voor bijvoorbeeld icoontjes 
+- svg bestandjes gebruiken voor bijvoorbeeld icoontjes
 - em gebruiken in plaats van px
 - Ervoor zorgen dat de content op de website meeschaalt
 
