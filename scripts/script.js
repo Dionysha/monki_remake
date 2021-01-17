@@ -4,12 +4,14 @@
 
 /*eslint 'no-console': 0*/
 
-var shopItem ;
+var sort;
+sort = document.querySelector("section.sort");
 
-shopItem = document.querySelector("section.shopitems img");
+var openSort;
+openSort = document.querySelector("section.view button:nth-of-type(2)");
 
-shopItem.addEventListener("click", changeImage);
+openSort.addEventListener("click", openingSort);
 
-function changeImage() {
-shopItem.classList.add("shopItem");
+function openingSort(event) {
+sort.classList.toggle("sort");
 }
