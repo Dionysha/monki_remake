@@ -6,13 +6,14 @@
 /* header */
 header p:nth-of-type(1) {
   font-size: 0.8em;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   padding: 1em 5em;
   line-height: 1.8em;
 }
 
 header a {
-  position: absolute;
+  display: flex;
+  flex-direction: row;
   text-indent: -666em;
   color: white;
   background-color: transparent;
@@ -20,11 +21,23 @@ header a {
   background-size: 100%;
 }
 
+/* navigation bar */
+section.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+section.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*  Hamburger menu icon */
 header li:nth-of-type(1) a {
-  top: 5.7em;
-  left: 0.5em;
-  right: 20em;
+  margin-right: -1em;
+  margin-top: 1em;
   height: 3.9em;
   width: 3.4em;
   background-image: url(../images/hamburger.png);
@@ -32,8 +45,8 @@ header li:nth-of-type(1) a {
 
 /*  Search icon */
 header li:nth-of-type(2) a {
-  top: 5.9em;
-  right: 13.8em;
+  margin-right: 2em;
+  margin-top: 1.1em;
   height: 3.8em;
   width: 3.3em;
   background-image: url(../images/search.png);
@@ -41,8 +54,8 @@ header li:nth-of-type(2) a {
 
 /*  Shopping bag icon */
 header li:nth-of-type(3) a {
-  top: 5.5em;
-  right: 1em;
+  margin-left: 8em;
+  margin-top: 0.7em;
   height: 3.7em;
   width: 3.2em;
   background-image: url(../images/shoppingbag.png);
@@ -50,9 +63,11 @@ header li:nth-of-type(3) a {
 
 /* All main texts */
 h1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   margin-top: 0.1em;
 }
 
@@ -63,6 +78,10 @@ h2 {
   font-size: 2em;
 }
 
+section.mainItems h2 {
+  margin-top: 2em;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -70,7 +89,7 @@ p {
   color: black;
 }
 
-section {
+main section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,21 +97,68 @@ section {
   font-family: 'Montserrat', sans-serif;
 }
 
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+main div a {
+  margin-top: 17em;
+  padding: 1em 3em 1em 3em;
+}
+
 main a {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
-  margin-top: 15em;
   background-color: white;
   color: black;
-  padding: 1em 2em 1em 2em;
   text-decoration: none;
 }
 
-/* Section Must-have winter looks*/
-section:nth-of-type(2) h2 {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+main div a:hover {
+  background-color: pink;
+  color: white;
+}
+
+/* section mainItems 1b*/
+section.mainItems1 img {
+  width: 100%;
+  min-width: 260px;
+  height: auto;
+}
+
+section.mainItems1 {
+  margin: 1em;
+}
+
+section.mainItems1 h2 {
+  text-shadow: 0 0 0.3em white;
+}
+
+/* section mainItems 1 media queries */
+@media (max-width:600px) {
+  section.mainItems1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width:600px) {
+  section.mainItems1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width:900px) {
+  section.mainItems1 h2 {
+    font-size: 2.5em;
+  }
 }
 
 /* As mentioned in: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ */
@@ -105,62 +171,81 @@ h2.visuallyHidden {
   width: 1px;
 }
 
-/* List items */
-section:nth-of-type(3) ul {
+/* List items viewed earlier */
+section.viewedEarlier ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   padding: 0;
   overflow-x: auto;
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border-bottom: 2px solid lightgrey;
 }
 
-section:nth-of-type(3) a {
-
+section.viewedEarlier img {
+  margin: 0em 0.4em 1em 0.4em;
 }
 
-section:nth-of-type(3) img {
-  margin: 0.5em;
-}
-
-section:nth-of-type(3) li {
+section.viewedEarlier li {
   font-size: 0.8em;
   text-align: center;
   padding-bottom: 1em;
 }
 
-/* Grey line */
-section:nth-of-type(3) li {
-  border-bottom: 1px solid lightgrey;
+section.viewedEarlier li a:hover {
+  background-color: white;
+  color: pink;
 }
 
-/* Section Occasion-wear */
-section:nth-of-type(4) {
-  margin-top: 2em;
+section.viewedEarlier li:hover {
+  border-bottom: 2px solid pink;
 }
 
-section:nth-of-type(4) h2 {
+/* Section mainItems 2 */
+section.mainItems2 img {
+  width: 100%;
+  min-width: 260px;
+  height: auto;
+}
+
+section.mainItems2 {
+  margin: 2em 1em 5em 1em;
+}
+
+section:nth-of-type(3) h2 {
   color: white;
   background-color: transparent;
   text-shadow: 0 0 0.3em black;
 }
 
-/* Section Knitwear */
-section:nth-of-type(6) {
-  margin-bottom: 5em;
+/* Section mainItems 2 media queries*/
+@media (max-width:900px) {
+  section.mainItems2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
-section:nth-of-type(6) h2 {
-  text-shadow: 0 0 0.3em white;
+@media (min-width:900px) {
+  section.mainItems2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  section.mainItems2 h2 {
+    font-size: 2.5em;
+  }
 }
 
 /* Section #monkistyle */
-section:nth-of-type(7) h2 {
+section:nth-of-type(4) h2 {
   text-align: center;
-  margin-bottom: 6.3em;
+  margin-bottom: 5em;
 }
 
-section:nth-of-type(7) p {
+section:nth-of-type(4) p {
   font-size: 1.1em;
   line-height: 1.5em;
   padding: 1em;
@@ -168,74 +253,337 @@ section:nth-of-type(7) p {
   background-color: transparent;
 }
 
-section:nth-of-type(7) a {
-
-}
-
-/**/
-section:nth-of-type(7) ul {
+section:nth-of-type(5) ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 0;
-  margin-top: 1.5em;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+section:nth-of-type(5) li {
+  margin: 0.1em;
+}
+
+main button {
+  padding: 0.7em 3.3em 0.7em 3.3em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: none;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
 
 /* Footer items */
 footer {
   background-color: pink;
   color: black;
-  margin-top: 10em;
+  margin-top: 1em;
 }
 
+/* image peace sign */
+img.peacesign {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 2em;
+}
+
+/* footer text sign-up */
 footer p:nth-of-type(1) {
-font-size: 1.5em;
-font-weight: bolder;
-margin: 1em;
-padding-top: 3em;
-line-height: 1.7em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin: 0.5em 1em 0.5em 1em;
+  line-height: 1.7em;
 }
 
 footer p:nth-of-type(2) {
-font-size: 0.9em;
-margin: 1em;
-padding-bottom: 1em;
-line-height: 1.7em;
+  font-size: 0.9em;
+  margin: 1em;
+  padding-bottom: 1em;
+  line-height: 1.7em;
 }
 
-button {
-padding: 1.2em 4em 1.2em 4em;
-display: flex;
-justify-content: center;
-margin: auto;
-border-radius: 0;
-border: 2px solid black;
-font-size: 0.8em;
-font-family: 'Montserrat', sans-serif;
-font-weight: bold;
+/* sign-up button */
+footer button {
+  padding: 1.2em 4em 1.2em 4em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
+/* footer navigation */
 h3 {
-  font-size: 1.3em;
-
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
-footer ul {
+footer section:nth-of-type(1) ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* media queries footr navigation */
+@media (min-width: 300px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 500px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  footer section:nth-of-type(1) nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+footer a {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+/* Social media */
+footer section:nth-of-type(2) {
   margin-top: 2em;
 }
 
-/* Footer text */
+footer section:nth-of-type(2) ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer section:nth-of-type(2) li {
+  margin-right: 1em;
+}
+
+/* Footer text monki info */
 footer p:nth-of-type(3) {
   font-size: 0.8em;
-  background-color: pink;
-  color: grey;
   padding: 1.5em;
   margin: 0;
+  color: grey;
+  background-color: pink;
+}
+
+/* Second Page */
+/* link back to homepage */
+a.home {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.8em;
+  font-weight: bolder;
+  margin-left: 0.5em;
+  margin-top: -2em;
+  background-color: white;
+  color: pink;
+}
+
+/* 'View all' text */
+section.view h2 {
+  font-size: 1em;
+  background-color: pink;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  width: 100%;
+  margin-top: 4.5em;
+}
+
+/* Buttons filter and sort */
+section.view button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-indent: -666em;
+  color: white;
+  background-color: transparent;
+  border: none;
+  background-size: 100%;
+  z-index: 1;
+  padding: 0;
+  position: absolute;
+  margin-top: 4.3em;
+}
+
+section.view button:nth-of-type(1) {
+  margin-right: 13em;
+  height: 3.3em;
+  width: 4.1em;
+  background-image: url(../images/filter.png);
+}
+
+section.view button:nth-of-type(2) {
+  margin-left: 13em;
+  height: 3em;
+  width: 3.3em;
+  background-image: url(../images/sort.png);
+}
+
+/* Sorting options */
+section.sort {
+  margin-top: 6em;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  color: black;
+  padding: 1.5em 0em 1.5em 0em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-radius: 1em;
+}
+
+section.sort label {
+  margin-right: 1em;
+}
+
+section.sort input {
+  margin-right: 0.4em;
+}
+
+/* Sorting options media queries */
+@media (max-width: 700px) {
+  section.sort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.sort label {
+    margin-bottom: 1em;
+  }
+
+  section.sort input {
+    margin-bottom: 0.3em;
+  }
+}
+
+/* List items categories */
+section.categories ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  overflow-x: auto;
+  margin-top: 2.5em;
+  border-bottom: 2px solid lightgrey;
+}
+
+section.categories button {
+  display: flex;
+  background-color: white;
+  color: black;
+  padding: 0;
+}
+
+section.categories img {
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+section.categories li {
+  font-size: 0.75em;
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: bolder;
+}
+
+section.categories li:hover {
+  border-bottom: 2px solid pink;
+  background-color: white;
+  color: pink;
+}
+
+/* List shop items */
+section.shopitems ul {
+  list-style-type: none;
+  margin: 1em;
+}
+
+/* media queries shop items */
+@media (min-width: 300px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 400px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 700px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+@media (min-width: 900px) {
+  section.shopitems ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+
+section.shopitems img {
+  margin: 0.5em;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+section.shopitems li {
+  margin-bottom: 2em;
+}
+
+section.shopitems img:hover {
+  background-image: linear-gradient(pink, purple);
+  padding: 4px;
+}
+
+section.shopitems p {
+  font-size: 0.9em;
+  color: black;
+  background-color: white;
+  font-weight: bolder;
 }
