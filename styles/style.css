@@ -511,6 +511,7 @@ section.categories img {
   min-width: 100px;
   height: auto;
   margin-bottom: 0.5em;
+  margin-right: 1em;
 }
 
 section.categories li {
