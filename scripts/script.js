@@ -5,7 +5,7 @@
 /*eslint 'no-console': 0*/
 
 var sort;
-sort = document.querySelector("section.sort");
+sort = document.querySelector("body.secondPage section:nth-of-type(2)");
 
 var openSort;
 openSort = document.querySelector("section.view button:nth-of-type(2)");
@@ -13,5 +13,6 @@ openSort = document.querySelector("section.view button:nth-of-type(2)");
 openSort.addEventListener("click", openingSort);
 
 function openingSort(event) {
-sort.classList.toggle("sort");
+  sort.classList.toggle("sort");
+  event.preventDefault();
 }
