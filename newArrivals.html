@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="secondPage">
 	<header>
 		<p>Sign-up to get 15% off & VIP SALE early access!</p>
 		<section class="navbar">
@@ -40,18 +40,20 @@
 
 		<a class="home" href="index.html">Home > New in </a>
 
-<!---  checkboxes: https://www.w3schools.com/tags/att_input_type_checkbox.asp --->
-<section class="sort">
-		<input type="checkbox" id="az" name="aFirst" value="name">
-		<label for="az"> Show A-Z </label>
-		<input type="checkbox" id="za" name="zFirst" value="name">
-		<label for="za"> Show Z-A </label>
+		<!---  checkboxes: https://www.w3schools.com/tags/att_input_type_checkbox.asp -->
+		<section>
+			<input type="radio" id="az" name="option" value="name">
+			<label for="az"> Show A-Z </label>
 
-		<input type="checkbox" id="lowHigh" name="lowFirst" value="price">
-		<label for="lowHigh"> Show price low-high </label>
-		<input type="checkbox" id="highLow" name="highFirst" value="price">
-		<label for="highLow"> Show price high-low </label>
-</section>
+			<input type="radio" id="za" name="option" value="name">
+			<label for="za"> Show Z-A </label>
+
+			<input type="radio" id="lowHigh" name="option" value="price">
+			<label for="lowHigh"> Show price low-high </label>
+
+			<input type="radio" id="highLow" name="option" value="price">
+			<label for="highLow"> Show price high-low </label>
+		</section>
 
 		<section class="categories">
 			<h2 class="visuallyHidden">Categories</h2>
