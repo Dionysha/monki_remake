@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="secondPage">
 	<header>
 		<p>Sign-up to get 15% off & VIP SALE early access!</p>
 		<section class="navbar">
@@ -40,66 +40,82 @@
 
 		<a class="home" href="index.html">Home > New in </a>
 
+		<!---  checkboxes: https://www.w3schools.com/tags/att_input_type_checkbox.asp -->
+		<section>
+			<input type="radio" id="az" name="option" value="name">
+			<label for="az"> Show A-Z </label>
+
+			<input type="radio" id="za" name="option" value="name">
+			<label for="za"> Show Z-A </label>
+
+			<input type="radio" id="lowHigh" name="option" value="price">
+			<label for="lowHigh"> Show price low-high </label>
+
+			<input type="radio" id="highLow" name="option" value="price">
+			<label for="highLow"> Show price high-low </label>
+		</section>
+
 		<section class="categories">
 			<h2 class="visuallyHidden">Categories</h2>
 			<ul>
-				<li><button type="button" name="category"><img src="images/green_croppedhoodie2.jpeg" alt="girl wearing a green cropped hoodie" width="90" height="130"></button>View all new</li>
-				<li><button type="button" name="category"><img src="images/beige_top.jpg" alt="girl wearing a beige top" width="90" height="130"></button>New in clothing</li>
-				<li><button type="button" name="category"><img src="images/bracelets.jpeg" alt="2 golden bracelets" width="90" height="130"></button>New in Accessories</li>
-				<li><button type="button" name="category"><img src="images/brown_coats.jpg" alt="two girls wearing brown coats" width="90" height="130"></button>Online exclusives</li>
-				<li><button type="button" name="category"><img src="images/blue_loungeset.jpeg" alt="girl wearing a blue loungeset" width="90" height="130"></button>Monochrome</li>
-				<li><button type="button" name="category"><img src="images/threefortwo.png" alt="" width="90" height="130"></button></li>
+				<li><button type="button" name="category"><img src="images/knitPurple.jpg" alt="girl wearing a pastel purple knit vest"></button>View all new</li>
+				<li><button type="button" name="category"><img src="images/denimJacket.jpg" alt="a grey denim jacket"></button>New in clothing</li>
+				<li><button type="button" name="category"><img src="images/yellowBag.jpg" alt="a yellow shoulder bag"></button>New in Accessories</li>
+				<li><button type="button" name="category"><img src="images/purpleFleece.jpg" alt="girl wearing a pastel purple fleece sweater"></button>Trending now</li>
 			</ul>
 		</section>
 
 		<section class="shopitems">
 			<ul>
-				<li><a href=""><img src="images/blackJeans.jpeg" alt="girl wearing black jeans" width="140" height="220">
-						<p>NEW! Corduroy jeans €35</p>
+				<li><a href=""><img src="images/boxyShirt.jpeg" alt="girl wearing a white boxy shirt">
+						<p>NEW! boxy shirt €25</p>
 					</a></li>
-
-				<li><a href=""><img src="images/green_croppedhoodie.jpeg" alt="girl wearing a green cropped hoodie" width="140" height="220">
-						<p>NEW! cropped hoodie €25</p>
+				<li><a href=""><img src="images/butterflyRings.jpeg" alt="gold butterfly rings">
+						<p>NEW! gold butterfly... €8</p>
 					</a></li>
-
-				<li><a href=""><img src="images/check_dress.jpeg" alt="girl wearing a black and white checkered dress" width="250" height="350">
-						<p>NEW! Checkered dress €30</p>
-					</a></li>
-
-				<li><a href=""><img src="images/creamsweater.jpeg" alt="girl wearing a cream sweater" width="140" height="220">
+				<li><a href=""><img src="images/cableKnit.jpeg" alt="girl wearing a cream cable knit vest">
 						<p>NEW! Basic sweater €20</p>
 					</a></li>
-				<li><a href=""><img src="images/gold_jewelry.jpg" alt="2 golden bracelets" width="140" height="220">
-						<p>NEW! golden charm... €5</p>
+				<li><a href=""><img src="images/croppedHoodie.jpeg" alt="girl wearing a light blue cropped hoodie">
+						<p>NEW! cropped hoodie €20</p>
 					</a></li>
-				<li><a href=""><img src="images/black_coat.jpeg" alt="girl wearing a black coat" width="140" height="220">
-						<p>NEW! Long coat €50</p>
+
+				<li><a href=""><img src="images/fauxLeather.jpeg" alt="girl wearing a black faux leather jacket">
+						<p>NEW! faux leather... €30</p>
 					</a></li>
-				<li><a href=""><img src="images/white_cardigan.jpeg" alt="girl wearing a cream cardigan" width="140" height="220">
+
+
+				<li><a href=""><img src="images/goldEarrings.jpeg" alt="gold swirly earrings">
+						<p>NEW! gold earrings €8</p>
+					</a></li>
+				<li><a href=""><img src="images/knitCardigan.jpeg" alt="girl wearing a cream and blue cardigan">
 						<p>NEW! Knit cardigan €30</p>
 					</a></li>
-				<li><a href=""><img src="images/space_pyjamas.jpeg" alt="space pyjamas" width="140" height="220">
-						<p>NEW! Space pyjamas €15</p>
+				<li><a href=""><img src="images/purpleKnit.jpeg" alt="girl wearing a pastel purple knit vest">
+						<p>NEW! Knit vest €25</p>
 					</a></li>
-				<li><a href=""><img src="images/phonecase.jpeg" alt="a phonecase with a chain" width="140" height="220">
-						<p>NEW! Phonecase with... €4</p>
-					</a></li>
-
-				<li><a href=""><img src="images/purple_beanie.jpeg" alt="a purple beanie" width="250" height="350">
-						<p>NEW! chunky knit beanie €10</p>
+				<li><a href=""><img src="images/shoulderBag.jpeg" alt="a pastel yellow shoulder bag">
+						<p>NEW! shoulder bag €15</p>
 					</a></li>
 
-				<li><a href=""><img src="images/pastelsocks.jpeg" alt="pastel socks with faces" width="140" height="220">
-						<p>NEW! Pastel socks... €5</p>
+				<li><a href=""><img src="images/ribbedTshirt.jpeg" alt="girl wearing a ribbed t shirt">
+						<p>NEW! ribbed tee €10</p>
 					</a></li>
-				<li><a href=""><img src="images/green_skaterdress.jpeg" alt="girl wearing a green skaterdress" width="140" height="220">
-						<p>NEW! skaterdress €25</p>
+
+				<li><a href=""><img src="images/sweaterDress.jpeg" alt="girl wearing a cream sweater dress">
+						<p>NEW! sweater dress €20</p>
 					</a></li>
-				<li><a href=""><img src="images/yellow_cardigan.jpeg" alt="girl wearing a yellow cardigan" width="140" height="220">
-						<p>NEW! Fitted cardigan €20</p>
+				<li><a href=""><img src="images/vneckCrop.jpeg" alt="girl wearing a blue cropped v neck">
+						<p>NEW! cropped v... €25</p>
 					</a></li>
-				<li><a href=""><img src="images/pastel_hoodie.jpeg" alt="a pastel purple hoodie" width="140" height="220">
-						<p>NEW! Basic hoodie €25</p>
+				<li><a href=""><img src="images/hairClips.jpeg" alt="pastel colored hair clips">
+						<p>NEW! hair clips €5</p>
+					</a></li>
+				<li><a href=""><img src="images/whiteJeans.jpeg" alt="girl wearing white jeans">
+						<p>NEW! white jeans €25</p>
+					</a></li>
+				<li><a href=""><img src="images/fauxFleece.jpeg" alt="girl a faux fleece sweater">
+						<p>NEW! faux fleece... €35</p>
 					</a></li>
 			</ul>
 		</section>
@@ -115,55 +131,51 @@
 		<button type="button" name="Sign up">Sign up</button>
 
 
-		<h3>Help</h3>
 		<section>
 			<nav>
-				<ul>
-					<li><a href="">Holiday delivery & returns</a></li>
-					<li><a href="">Payment & Delivery</a></li>
-					<li><a href="">Return & refund</a></li>
-					<li><a href="">Monki fit guide</a></li>
-					<li><a href="">FAQ</a></li>
-					<li><a href="">Privacy notice</a></li>
-					<li><a href="">Student discount</a></li>
-				</ul>
+				<div>
+					<h3>Help</h3>
+					<ul>
+						<li><a href="">Holiday delivery & returns</a></li>
+						<li><a href="">Payment & Delivery</a></li>
+						<li><a href="">Return & refund</a></li>
+						<li><a href="">Monki fit guide</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">Privacy notice</a></li>
+						<li><a href="">Student discount</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Contact</h3>
+					<ul>
+						<li><a href="">Contact us</a></li>
+						<li><a href="">Store locator</a></li>
+						<li><a href="">Work at Monki</a></li>
+						<li><a href="">Press</a></li>
+						<li><a href="">Affiliate</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Social Shopping</h3>
+					<ul>
+						<li><a href="">#monkistyle gallery</a></li>
+						<li><a href="">Monkisphere community</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>About Monki</h3>
+					<ul>
+						<li><a href="">Planet Power</a></li>
+						<li><a href="">Salute sisterhood</a></li>
+					</ul>
+				</div>
 			</nav>
 		</section>
 
-		<h3>Contact</h3>
 		<section>
-			<nav>
-				<ul>
-					<li><a href="">Contact us</a></li>
-					<li><a href="">Store locator</a></li>
-					<li><a href="">Work at Monki</a></li>
-					<li><a href="">Press</a></li>
-					<li><a href="">Affiliate</a></li>
-				</ul>
-			</nav>
-		</section>
-
-		<h3>Social Shopping</h3>
-		<section>
-			<nav>
-				<ul>
-					<li><a href="">#monkistyle gallery</a></li>
-					<li><a href="">Monkisphere community</a></li>
-				</ul>
-			</nav>
-		</section>
-
-		<h3>About Monki</h3>
-		<section>
-			<nav>
-				<ul>
-					<li><a href="">Planet Power</a></li>
-					<li><a href="">Salute sisterhood</a></li>
-				</ul>
-			</nav>
-		</section>
-
-		<section class="socialMedia">
 			<ul>
 				<li><a href=""><img src="images/facebook.png" alt="facebook icon" width="25" height="25"></a></li>
 				<li><a href=""><img src="images/twitter.png" alt="twitter icon" width="25" height="25"></a></li>
