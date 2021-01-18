@@ -78,6 +78,10 @@ h2 {
   font-size: 2em;
 }
 
+section.mainItems h2 {
+  margin-top: 2em;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -120,35 +124,41 @@ main div a:hover {
   color: white;
 }
 
-/*  */
-section.mainItems img {
-  width: 50%;
-  min-width: 280px;
+/* section mainItems 1b*/
+section.mainItems1 img {
+  width: 100%;
+  min-width: 260px;
   height: auto;
 }
 
-@media (min-width:800px) {
-  section.mainItems h2 {
-    font-size: 3em;
+section.mainItems1 {
+  margin: 1em;
+}
+
+section.mainItems1 h2 {
+  text-shadow: 0 0 0.3em white;
+}
+
+/* section mainItems 1 media queries */
+@media (max-width:600px) {
+  section.mainItems1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
+}
 
-  section.mainItems a {
-    font-size: 1.5em;
+@media (min-width:600px) {
+  section.mainItems1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
   }
 }
 
-/* Section New arrivals*/
-section:nth-of-type(1) img {
-  margin-top: 1em;
-}
-
-section:nth-of-type(1) h2 {
-  margin-top: 2em;
-}
-
-/* Section Must-have winter looks*/
-section:nth-of-type(2) h2 {
-  margin-top: 1em;
+@media (min-width:900px) {
+  section.mainItems1 h2 {
+    font-size: 2.5em;
+  }
 }
 
 /* As mentioned in: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ */
@@ -173,11 +183,11 @@ section.viewedEarlier ul {
   border-bottom: 2px solid lightgrey;
 }
 
-main section:nth-of-type(3) img {
+section.viewedEarlier img {
   margin: 0em 0.4em 1em 0.4em;
 }
 
-main section:nth-of-type(3) li {
+section.viewedEarlier li {
   font-size: 0.8em;
   text-align: center;
   padding-bottom: 1em;
@@ -192,41 +202,50 @@ section.viewedEarlier li:hover {
   border-bottom: 2px solid pink;
 }
 
-/* Section Occasion-wear */
-main section:nth-of-type(4) {
-  margin-top: 2em;
+/* Section mainItems 2 */
+section.mainItems2 img {
+  width: 100%;
+  min-width: 260px;
+  height: auto;
 }
 
-section:nth-of-type(4) h2 {
+section.mainItems2 {
+  margin: 2em 1em 5em 1em;
+}
+
+section:nth-of-type(3) h2 {
   color: white;
   background-color: transparent;
   text-shadow: 0 0 0.3em black;
-  margin-top: 2em;
 }
 
-/* Section Next lvl comfy */
-section:nth-of-type(5) h2 {
-  color: white;
-  background-color: transparent;
-  text-shadow: 0 0 0.3em black;
+/* Section mainItems 2 media queries*/
+@media (max-width:900px) {
+  section.mainItems2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
-/* Section Knitwear */
-section:nth-of-type(6) {
-  margin-bottom: 6em;
-}
+@media (min-width:900px) {
+  section.mainItems2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
 
-section:nth-of-type(6) h2 {
-  text-shadow: 0 0 0.3em white;
+  section.mainItems2 h2 {
+    font-size: 2.5em;
+  }
 }
 
 /* Section #monkistyle */
-section:nth-of-type(7) h2 {
+section:nth-of-type(4) h2 {
   text-align: center;
   margin-bottom: 5em;
 }
 
-section:nth-of-type(7) p {
+section:nth-of-type(4) p {
   font-size: 1.1em;
   line-height: 1.5em;
   padding: 1em;
@@ -234,7 +253,7 @@ section:nth-of-type(7) p {
   background-color: transparent;
 }
 
-section:nth-of-type(8) ul {
+section:nth-of-type(5) ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -242,7 +261,7 @@ section:nth-of-type(8) ul {
   flex-wrap: wrap;
 }
 
-section:nth-of-type(8) li {
+section:nth-of-type(5) li {
   margin: 0.1em;
 }
 
@@ -431,11 +450,18 @@ section.view button:nth-of-type(2) {
   background-image: url(../images/sort.png);
 }
 
+/* Sorting options */
 section.sort {
-  margin-top: 7em;
+  margin-top: 6em;
   font-size: 0.8em;
   display: flex;
   justify-content: center;
+  background-color: pink;
+  color: black;
+  padding: 1.5em 0em 1.5em 0em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-radius: 1em;
 }
 
 section.sort label {
@@ -444,6 +470,22 @@ section.sort label {
 
 section.sort input {
   margin-right: 0.4em;
+}
+
+/* Sorting options media queries */
+@media (max-width: 700px) {
+  section.sort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.sort label {
+    margin-bottom: 1em;
+  }
+
+  section.sort input {
+    margin-bottom: 0.3em;
+  }
 }
 
 /* List items categories */
